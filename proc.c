@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
  DWORD dwBytesWritten;
  LPCSTR data = "Please Help I Didnt Want To Hack You\n";
  const char *url = "https://wallpapersok.com/images/file/shrek-making-a-funny-face-1lawv7i17eeg10xw.jpg";
- SetConsoleTitle("ransomware");
+ SetConsoleTitle("ransomwar3");
  STARTUPINFO si;
  PROCESS_INFORMATION pi;
  
@@ -50,7 +50,7 @@ int main(int argc, char *argv[])
 
   else if (result == IDNO)
   {
-   printf("Nigger its your pc name stfu and enjoy malwar3 donkey\n\n");
+   printf("Bro its your pc name stfu and enjoy malwar3 donkey\n\n");
    Sleep(2500);
    CreateProcess(NULL,"cmd.exe /c color 4 & ipconfig /all",NULL,NULL,FALSE,0,NULL,NULL,&si,&pi);
    Sleep(6000);
